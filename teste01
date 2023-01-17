@@ -1,0 +1,6 @@
+algoritmo "teste01"
+var
+inicio
+Escreval ("Olá, mundo!")
+Escreva ("Me livrei da maldição!")
+fimalgoritmo
