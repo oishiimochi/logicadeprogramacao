@@ -1,0 +1,7 @@
+algoritmo "teste02"
+var
+mensagem: caractere
+inicio
+   mensagem <- "Olá, mundo!"
+   Escreva (mensagem)
+fimalgoritmo
