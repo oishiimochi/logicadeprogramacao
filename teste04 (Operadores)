@@ -1,0 +1,28 @@
+algoritmo "operadores"
+var
+   N1, N2, Soma, Sub, Mult, DI, Mo: inteiro
+   Med, D, Expo: real
+inicio
+     Escreva ("Informe um número: ")
+     Leia (N1)
+     Escreva ("Informe outro número: ")
+     Leia (N2)
+     
+     Soma <- N1 + N2
+     Escreval ("A soma entre ",N1, " e",N2, " é igual a ",Soma)
+     Sub <- N1 - N2
+     Escreval ("A subtração entre ",N1, " e",N2, " é igual a ",Sub)
+     Mult <- N1 * N2
+     Escreval ("A multiplicação entre ",N1, " e",N2, " é igual a ",Mult)
+     D <- N1 / N2
+     Escreval ("A divisão entre ",N1, " e",N2, " é igual a ",D)
+     DI <- N1 \ N2
+     Escreval ("A divisão inteira entre ",N1, " e",N2, " é igual a ",DI)
+     Expo <- N1 ^ N2
+     Escreval (N1, " elevado a",N2, " é igual a ",Expo)
+     Mo <- N1 % N2
+     Escreval ("O módulo de ",N1, " e",N2, " é igual a ",Mo)
+     Med <- (N1 + N2) /2
+     Escreva ("A média entre ",N1, " e",N2, " é igual a ",Med)
+     
+fimalgoritmo
