@@ -1,0 +1,14 @@
+algoritmo "conversor"
+var
+   angulo, S, C, T: real
+inicio
+        Escreva ("Informe um ângulo: ")
+        Leia (angulo)
+        S <- Sen(GraupRad(angulo))
+        C <- Cos(GraupRad(angulo))
+        T <- Tan(GraupRad(angulo))
+        Escreval ("O seno de ", angulo, " é igual a ", S)
+        Escreval ("O cossseno de ", angulo, " é igual a ", C)
+        Escreva ("A tangente de ", angulo, " é igual a ", T)
+        
+fimalgoritmo
